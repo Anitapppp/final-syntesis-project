@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: lightseagreen;
 }
 
 header h1 {
-  background-color: #364552;
-  color: white;
+  background-color: white;
+  color: rgb(0, 0, 0);
   padding: 3rem 2rem;
   font-size: 3rem;
   text-align: center;
@@ -45,8 +45,8 @@ h5 {
 }
 
 body p {
-  margin: 1rem 0;
-  padding: 1rem 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem 0rem;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
