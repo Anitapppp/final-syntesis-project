@@ -23,8 +23,7 @@
 <ul>
   <b><li>Analysis</li></b>
   <p>
-      Linear regression models provide a mathematical formula that can be interpreted and thus generate predictions. It is an established statistical technique that is applied to computer programs and in computer science. It attempts to plot a linear graph between two variables, as in this case the variable X represents months and the variable Y represents kWh. 
-      As can be seen in the graph, the linear regression is descending on the Y axis with respect to the passage of the months located on the X axis, since observing the equation it can be seen that the slope is negative 2.00, so that when X increases by 1, Y decreases by 2.00 and the Y-intercept is 126.80. On the other hand, the red points represent the kWh consumption of the household in each month, which allows us to determine that in comparison from the first to the second month, consumption increased, but for the third month it remained stable with respect to the previous month, while for the fourth and fifth month it decreased significantly.
+      Linear regression models provide a mathematical formula for interpretation to generate predictions. Linear regression is an established technique and is easily applied to software and computing.It attempts to plot a linear graph between two variables, as in this case the variable X represents months and the variable Y represents kWh. As can be seen in the graph, the linear regression is descending on the Y axis with respect to the passage of the months located on the X axis, since observing the equation it can be seen that the slope is negative 2.00, so that when X increases by 1, Y decreases by 2.00 and the Y-intercept is 126.80. On the other hand, the red points represent the kWh consumption of the household in each month, which allows us to determine that in comparison from the first to the second month, consumption increased, but for the third month it remained stable with respect to the previous month, while for the fourth and fifth month it decreased significantly, analyzing these data I could determine that these changes arise seasonally, since consumption was higher during the vacation season when more time was spent at home, including the consumption of kWh for the lighting of Christmas lights. 
   </p>
 </ul>
     
@@ -37,10 +36,13 @@
     $$ y=-2.00 \cdot 6 + 126.80 $$ $$ y=114.8 \text { kWh} $$
   </p>
 
-  <li>
-    A conclusion about your own interpretation on how you should reduce or
-    remain stable the consumption of electric energy.
-  </li>
+  <b><li>
+      Conclusion
+    </li></b>
+    <p>
+        After analyzing the graph and the data provided, I can conclude that despite the variation in kWh consumption per month, it remains in a range of 114 to 127 kWh, being lower in the last month and higher in months 2 and 3, considering that it is paid month in arrears. Thus, based on the graph and the equation given, it is estimated that for the next month approximately 114.8 kWh will be consumed, which is expected to remain constant, since the idea is that consumption should not be very high, but as far as possible in smaller quantities to reduce the burden on the environment, which can be achieved by using devices that require less energy to perform the same task and avoid the consumption of electricity. 
+    </p>
+
 </ul>
 <h4>Linear regression: Residents vs kWh</h4>
 <div id="analysis1Plot2"></div>
@@ -51,14 +53,30 @@
   displays that behavior in terms of:
 </p>
 <ul>
-  <li>The increasement and decreasement of the regression.</li>
-  <li>The relation among the dots regarding the colors.</li>
-  <li>
-    Estimate how many energy will be consumed in a residential unit where $200$
-    people live. Use LaTeX syntax in order to compute that.
-  </li>
-  <li>
-    A conclusion about your own interpretation on why is given that relation
-    between these two variables.
-  </li><em>
+  <b><li>Analysis</li></b>
+  <p>
+    For the analysis of this graph, it is necessary to take into account that, unlike the previous one, this one takes into account the number of residents and the kWh consumed in a month by 10 different households.
+    The X variable corresponds to the number of residents, with 2 being the lowest rank and 7 the highest, while the Y variable corresponds to the amount of KWh consumed by each family and has a range between 100 and 500 KWh.
+    As can be seen, the number of red dots in each range of the variable X represents the number of families surveyed that are made up of the number of people shown there, which allows us to determine that the majority of them live between 3 and 4 people, while the amount of 5 residents is not presented in any case.
+    On the other hand, analyzing the results, we can see that they vary constantly, with some families having high consumption, above the average, while others have it below the average.
+  </br>
+  </br>
+    Now taking linear regression into account, that is, the gray line that evaluates an average with respect to the data assigned to the variables, we can note that it is in ascending order and is also directly proportional, since as a of the variables increases, the other does the same in the regression line, since most of them increase in consideration of the number of residents.
+  </p>
+  
+  <b><li>
+      Estimate how many energy will be consumed in a residential unit where $200$
+      people live. Use LaTeX syntax in order to compute that.
+    </li></b>
+    <p>
+      $$ y=49.92 \cdot 200 + 5.32 $$ $$ y=9989.32 \text { kWh} $$
+    </p>
+    
+  <B><li>
+      Conclusion
+    </li></B>
+    <p>
+      To conclude, it can be observed that this data is very versatile, since as shown in the graph, sometimes the kWh consumption is higher in a smaller number of residents and vice versa, which is due to the influence of other external factors, such as the quality of the construction, the time people spend at home, the equipment of the place, the electronic devices they have, among others. 
+    </p>
+  <em>
 </ul>
